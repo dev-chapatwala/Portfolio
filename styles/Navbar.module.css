@@ -1,0 +1,39 @@
+/* Navbar styling */
+.navbar {
+    position: fixed;
+    top: 0;
+    z-index: 50;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Add additional styles for your navbar */
+    font-family: 'Jura','Exo 2', sans-serif, Verdana, Geneva, Tahoma, sans-serif ;
+    width: 100%;
+  }
+  
+  .navbarContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }     
+
+  .logo img{
+    margin-left: 0px;
+    padding-left: 0px;
+  }
+  .navLinks a {
+    color: #fff;
+    text-decoration: none;
+    margin-left: 1.5rem;
+    font-size: 1.2rem;
+    /* Add additional styles for the links */
+  }
+  .navbar_back{
+    background-color: black;
+  }

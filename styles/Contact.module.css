@@ -1,0 +1,156 @@
+.contact_section{
+    display: flex;
+    padding: 4rem;
+    height: 100vh;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1A1A1A
+    ;
+}
+.contact_section h1{
+    font-size: 3rem;
+}
+.contact_email_wrapper{
+    margin: 6rem 0px;
+}
+.social_link span{
+    padding: 0px 0.5rem;
+}
+.social_link span:nth-child(1){
+    padding-left: 0px;
+}
+.social_link a{
+    font-size: 2rem;
+    color: darkgoldenrod;
+}
+.contact_text_wrapper{
+    overflow-y: hidden;
+    color: darkgray;
+}
+.line_break_wrapper{
+    overflow-y: hidden;
+    color: darkgray;
+}
+.contact_email_wrapper{
+    font-size: 1.4rem;
+    color: darkgoldenrod;
+    overflow-y: hidden;
+}
+.contact_email_wrapper p{
+    font-size: 1.1rem;
+    text-decoration: underline;
+}
+.contact_email_wrapper a{
+    color: darkgoldenrod;
+}
+.social_link{
+    overflow-y: hidden;
+}
+.conact_two_section{
+    display: flex;
+    margin-left: 1rem;
+}
+.phone_input{
+    color: white;
+}
+.right_contact_section h4{
+    color: gray;
+    font-size: 1.1rem;
+}
+.right_contact_section input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: transparent;
+    color: gray;
+    z-index: 1;
+    margin: 1rem;
+    border-bottom: gray;
+  border-bottom: 1px solid gray;
+}
+.right_contact_section textarea{
+    background-color: transparent;
+    border: none;
+  border-bottom: 1px solid gray;
+    padding: 15px;
+}
+.right_contact_section select{
+    background-color: transparent;
+    border: none;   
+    color: gray;
+    padding: 14.75px;
+    margin: 1rem;
+  border-bottom: 1px solid gray;
+}
+.right_contact_section textarea{
+    margin: 1rem;
+    border: none;
+    color: gray;
+  border-bottom: 1px solid gray;
+}
+.submit_button{
+    background-color: gray;
+    cursor: pointer;
+    margin: 1rem;
+    padding: 10px;
+    width: 30%;
+    text-align: center;
+    border-radius: 0.3rem;
+    transition: background-color 0.3s;
+}
+.submit_button:hover{
+    background-color: white;
+}
+.contact_subject_section option:active{
+    background-color: aquamarine;
+}
+.phone_input{
+    width: auto;
+}
+.success_message{
+    color: greenyellow;
+}
+
+@media (max-width: 1080px) {
+    .contact_section{
+        display: block;
+    }
+    .contact_section h1{
+        font-size: 2.3rem;
+    }
+    .contact_email_wrapper{
+        margin: 5rem 0px;
+    }
+    .right_contact_section{
+        margin-left: -1rem;
+        margin-top: 1.5rem;
+    }
+}
+
+@media (max-width: 600px) {
+    .conact_two_section{
+        display: block;
+    }
+}
+@media (max-width: 470px) {
+    .contact_section{
+        padding: 2rem;
+    }
+    .contact_section h1{
+        font-size: 2.2rem;
+    }
+    .contact_email_wrapper h4{
+        font-size: 1.2rem;
+        margin-bottom: 7px;
+    }
+}
+@media (max-width: 370px){
+    .contact_section{
+        padding: 3rem;
+    }
+}
+@media (max-width: 345px) {
+    .contact_email_wrapper p{
+        font-size: 0.8rem;
+    }
+}
